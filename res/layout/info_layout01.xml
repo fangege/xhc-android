@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 第一个切换卡 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/userface02_ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+       
+        android:id="@+id/info_linearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- 显示第一个区域 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/layout01_imageview"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/info_layout01_devname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black" 
+                android:layout_marginLeft="50dp"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        
+
+       <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+        </ImageView>
+    </LinearLayout>
+    
+       
+       <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg" >
+        
+        <LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_marginTop="30px"
+	        android:layout_marginBottom="30px"
+	        android:layout_marginLeft="30px"
+	        android:layout_marginRight="30px"
+	        android:background="@drawable/divider_horizontal_line" >
+    	</LinearLayout>
+
+    	<LinearLayout
+	        android:id="@+id/linearLayout3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/dev_descript"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:textColor="#000000"
+	            android:paddingLeft="30px"
+	            android:paddingRight="30px"
+	           />
+    	</LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

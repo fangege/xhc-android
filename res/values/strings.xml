@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">新航程</string>
+    <string name="first_taghost">基本信息</string>
+    <string name="second_taghost">数据显示</string>
+    <string name="third_taghost">曲线图</string>
+    <string name="ip">http://49.123.105.119:60</string> 
+</resources>

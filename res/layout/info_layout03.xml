@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!-- 第三个切换卡 -->
+	<LinearLayout 
+		android:id="@+id/info_linearLayout03"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:orientation="vertical" 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:background="#ffffff"
+		>
+	<LinearLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal"
+			android:background="@android:color/white"
+			>
+			<ImageView 
+				android:id="@+id/info_layout03_imageview"
+				android:layout_width="80dp" 
+				android:layout_height="60dp"
+				android:src="@drawable/ic_launcher" />
+
+			<TextView 
+				android:id="@+id/info_layout03_devname"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="广西" 
+				android:textSize="30sp" 
+				android:layout_marginLeft="50dp"
+				android:textColor="@android:color/black" />
+		</LinearLayout>
+	<Spinner
+            android:id="@+id/select_value_3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </Spinner>
+       <LinearLayout
+            android:id="@+id/chart_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+       </LinearLayout>
+   
+    
+	</LinearLayout>

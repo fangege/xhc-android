@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+	<color name="serial_color">#FF0000</color>
+	<color name="axis_color">#000000</color>
+	<color name="chart_bg">#ffffff</color>
+	<color name="xlabel_color">#8A2BE2</color>
+	<color name="ylabel_color">#8A2BE2</color>
+</resources>
